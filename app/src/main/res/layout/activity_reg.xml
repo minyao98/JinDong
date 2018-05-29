@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="登录"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:layout_marginTop="20dp"
+        android:background="#999999" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/login_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="请输入密码" />
+
+    <Button
+        android:id="@+id/reg_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFDF695C"
+        android:textColor="#FFFFFFFF"
+        android:layout_marginTop="40dp"
+        android:text="注册" />
+
+
+</LinearLayout>
